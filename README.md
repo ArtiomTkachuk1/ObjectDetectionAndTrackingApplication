@@ -4,3 +4,4 @@
 https://drive.google.com/drive/folders/1LMpV2abjI9GcNeZtvgk-IdCt6l7uVQXe  
 3.paste models to modules/traffic_counter  
 4.run run.bat file  
+5.app must be running on http://127.0.0.1:5000
