@@ -7,7 +7,7 @@ pip install json
 pip install enum
 pip install mmdet
 pip install ctypes
-pip install PIL 
+pip install pillow
 pip install sklearn
 pip install matplotlib
 pip install plotly
@@ -23,7 +23,6 @@ pip install flask
 pip install re
 pip install copy
 pip install itertools
-pip install PIL
 pip install pandas
 pip install math
 pip install bezier

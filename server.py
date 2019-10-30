@@ -103,8 +103,9 @@ def upload_file():
 					type=i;
 					break
 			for i in request.json:
-				if(i=="nn_type"):
-					settings_App["nn_type"]=request.json[i]["name"];
+				if(i=="nn"):
+					settings_App["nn"]=request.json[i];
+					print(request.json[i])
 		elif(isinstance(request.files, Iterable)):
 				for i in request.files:
 					if i=="video":
@@ -125,7 +126,7 @@ def upload_file():
 				ref = request.json[type];
 				vid_path=ref;
 				vid_path = check_youtube(vid_path);
-				settings_App["nn_type"]=request.json["nn_type"]["name"];
+				settings_App["nn"]=request.json["nn"];
 				settings_App["num_of_frames"]=int(request.json["num_of_frames"]);
 				with open(setting_path, 'w') as json_file:
 					json.dump(settings_App, json_file)
@@ -193,7 +194,7 @@ def return_stream():
 	file1.close()
 	with open(setting_path) as file:
 		data = json.load(file)
-	nn_type=data["nn_type"]
+	nn_type=data["nn"]
 	frame_max=data["num_of_frames"]
 	frame_index=0
 	return Response(gen(Streamer(vid_path,lines_path,nn_type,frame_max,app.config['DATA_FOLDER']),frame_max,frame_index),
