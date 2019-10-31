@@ -4,7 +4,9 @@
 2. download models from  
 https://drive.google.com/drive/folders/1IEPmngnk8j9xjOqQA1e-sMFy7TDm_4R1?usp=sharing
 3. paste models to modules/traffic_counter  
-4. run install.bat file  
+4. Install Alexei AB darknet(https://github.com/AlexeyAB/darknet?files=1)  
+5. Instal ttfnet  
+6. run install.bat file  
 
 ## Usage  
 1. run run.bat file  
