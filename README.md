@@ -13,5 +13,5 @@ https://drive.google.com/drive/folders/1IEPmngnk8j9xjOqQA1e-sMFy7TDm_4R1?usp=sha
 2. app must be up and running on http://127.0.0.1:5000  
 
 ## Known issues  
-1. Ttfnet must be installed to be used  
-2. If flask will return Streamer mistake replace streamer.py with streamer_for_windows.py from the same folder
+1. If flask will return Streamer mistake replace streamer.py with streamer_for_windows.py from the same folder  
+
