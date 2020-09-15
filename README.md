@@ -1,6 +1,6 @@
 # one_touch_counter
 ## Instalation  
-1. cone this repo  
+1. clone this repo  
 2. download models from  
 https://drive.google.com/drive/folders/1IEPmngnk8j9xjOqQA1e-sMFy7TDm_4R1?usp=sharing
 3. paste models to modules/traffic_counter  
